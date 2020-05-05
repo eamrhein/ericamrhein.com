@@ -5,8 +5,8 @@
 <style>
   nav {
     border-bottom: 1px solid rgba(227, 66, 52, 0.1);
-    font-weight: 300;
-    padding: 0 1em;
+    font-weight: 500;
+    padding: 0 0.5em;
     color: white;
   }
 
@@ -44,7 +44,7 @@
 
   a {
     text-decoration: none;
-    padding: 1em 0.5em;
+    padding: 0.5em 0.5em;
     display: block;
   }
 </style>
@@ -57,7 +57,9 @@
       </a>
     </li>
     <li>
-      <a aria-current={segment === 'about' ? 'page' : undefined} href="about">
+      <a
+        aria-current={segment === '#projects' ? 'page' : undefined}
+        href="#projects">
         projects
       </a>
     </li>
