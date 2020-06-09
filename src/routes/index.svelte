@@ -1,96 +1,235 @@
 <script>
-  import Projects from "../components/Projects.svelte";
-  function handleClick() {
-    alert("testing");
-  }
+
 </script>
 
 <style>
-  #lead {
-    text-align: center;
-    margin-top: 7em;
-    margin-bottom: 7em;
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 80px;
   }
 
-  #about {
-    padding: 2em;
-    background-color: #101010;
-    display: flex;
-    justify-content: space-evenly;
+  .skills > i {
+    border: 2px solid #efefef;
+    border-radius: 3px;
+    padding: 1rem;
+    margin: 1rem;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+      border-color 0.2s ease-in-out;
   }
-  .headshot {
-    height: 15em;
-    width: 15em;
-  }
-  #photo-wrap {
-    margin: 2em;
-  }
-  #about-text {
-    align-self: center;
-    margin: 2em;
-    max-height: 20em;
-  }
-  .headshot img {
-    height: 100%;
-    width: 100%;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px; /* future proofing */
-    -khtml-border-radius: 10px; /* for old Konqueror browsers */
-  }
-  h1 {
-    color: #e34234;
-  }
-  @media (max-width: 480px) {
-    #lead {
-      margin-bottom: 2em;
-    }
-    #about {
-      display: block;
-      text-align: center;
-    }
-    .headshot {
-      margin-left: auto;
-      margin-right: auto;
-    }
+  .skills i:hover {
+    border-color: #49bf9d;
   }
 </style>
 
 <svelte:head>
   <title>Eric Amrhein - Web Developer</title>
 </svelte:head>
-<section id="lead">
-  <h1>Eric Amrhein</h1>
-  <h5>
-    a software developer passionate about building software and learning new
-    technologies
-  </h5>
-  <p>Based in San Francisco, California</p>
-  <div id="button-row">
-    <button on:click={handleClick}>Resume</button>
-    <button>Email</button>
-    <button>Github</button>
-    <button>LinkedIn</button>
+
+<!-- Header -->
+<header id="header">
+  <div class="inner">
+    <a href="http://www.google.com" class="image avatar">
+      <img src="images/eric.jpg" alt="" />
+    </a>
+    <h1>
+      <strong>I am Eric Amrhein</strong>
+      , a software developer
+      <br />
+      passionate about building software and learning new technologies.
+      <br />
+    </h1>
   </div>
-</section>
-<section id="about">
-  <div id="photo-wrap">
-    <div class="headshot">
-      <img alt="Headshot" src="eric.jpg" />
-    </div>
-  </div>
-  <div id="about-text">
-    <h2>About Me</h2>
+</header>
+
+<!-- Main -->
+<div id="main">
+  <!-- One -->
+  <section id="one">
+    <header class="major">
+      <h2>About Me</h2>
+    </header>
     <p>
       I am a full-stack software engineer experienced in
-      <strong>
-        JavaScript, React.js, Redux, Ruby on Rails, Node.js, Express.js, and
-        SQL.
-      </strong>
-      Apart from building user-friendly and modern applications, I love using my
-      knowledge in Web Architecture and Data Structures and Algorithms to create
-      scalable applications and to debug complex and important problems.
+      <strong>JavaScript</strong>
+      ,
+      <strong>React.js</strong>
+      ,
+      <strong>Redux</strong>
+      ,
+      <strong>Ruby on Rails</strong>
+      ,
+      <strong>Node.js</strong>
+      ,
+      <strong>Express.js</strong>
+      , and
+      <strong>SQL</strong>
+      . Apart from building user-friendly and modern applications, I love using
+      my knowledge in Web Architecture and Data Structures and Algorithms to
+      create scalable applications and to debug complex and important problems.
     </p>
+    <p />
+    <ul class="actions">
+      <li>
+        <a href="assets/resume.pdf" target="_blank" class="button">Resume</a>
+      </li>
+      <li>
+        <a href="mailto:eamrhein@protonmail.ch" target="_blank" class="button">
+          Email
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/eamrhein" target="_blank" class="button">
+          Github
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://linkedin.com/in/eamrhein"
+          target="_blank"
+          class="button">
+          Linkedin
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Two -->
+  <section id="two">
+    <h2>Projects</h2>
+    <div class="row">
+      <article class="col-6 col-12-xsmall work-item">
+        <a href="https://mindfull-note.herokuapp.com/" class="image fit thumb">
+          <img src="images/ArcoLinux_2019-12-08_21-09-15.png" alt="" />
+        </a>
+        <h3>Mindfullnote</h3>
+        <p>
+          A clone of Evernote built using React / Redux, Ruby on Rails and
+          Postgresql. Key features include creating notes, organizing notes in
+          notebooks, rich text and secure user authentication.
+        </p>
+        <p>
+          <a href="https://github.com/eamrhein/MindfulNote" target="_blank">
+            Github
+          </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://mindfull-note.herokuapp.com/" target="_blank">
+            Live
+          </a>
+        </p>
+      </article>
+      <article class="col-6 col-12-xsmall work-item">
+        <a href="https://stocknfo.ericamrhein.com" class="image fit thumb">
+          <img src="images/stocknfo.png" target="_blank" alt="" />
+        </a>
+        <h3>Stock Research</h3>
+        <p>
+          A website built using only react that allows people to search stocks
+          and see data. Key features include searching stocks, seeing stock
+          charts from 1day to 5years, and other important stock information.
+        </p>
+        <p>
+          <a href="https://stocknfo.ericamrhein.com" target="_blank">Github</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="/stockresearch" target="_blank">Live</a>
+        </p>
+      </article>
+      <article class="col-6 col-12-xsmall work-item">
+        <a href="https://travel-pics.herokuapp.com/" class="image fit thumb">
+          <img src="images/travelstory.png" alt="" />
+        </a>
+        <h3>Travel Story</h3>
+        <p>
+          A story-driven mobile-first social media application built with the
+          MERN Stack. Features include secure authentication, image upload,
+          comments and likes.
+        </p>
+        <p>
+          <a href="https://github.com/eamrhein/travelPics" target="_blank">
+            Github
+          </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://travel-pics.herokuapp.com/" target="_blank">Live</a>
+        </p>
+      </article>
+      <article class="col-6 col-12-xsmall work-item">
+        <a href="https://eventtool.ericamrhein.com" class="image fit thumb">
+          <img src="images/etool.png" alt="" />
+        </a>
+        <h3>eventbrite</h3>
+        <p>
+          Tool to create recurring eventbrite events. Technologies include
+          React, Graphql, Grommet ExpressJS and MongoDb .
+        </p>
+        <p>
+          <a href="https://github.com/eamrhein/EventTool" target="_blank">
+            Github
+          </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://eventtool.ericamrhein.com" target="_blank">Live</a>
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Three -->
+  <section id="three">
+    <h2>Technologies I use:</h2>
+    <div class="skills">
+      <i class="devicon-react-original-wordmark colored" />
+      <i class="devicon-javascript-plain colored" />
+      <i class="devicon-ruby-plain-wordmark colored" />
+      <i class="devicon-rails-plain colored" />
+      <i class="devicon-d3js-plain colored" />
+      <i class="devicon-html5-plain-wordmark colored" />
+      <i class="devicon-css3-plain-wordmark colored" />
+      <i class="devicon-express-original-wordmark colored" />
+      <i class="devicon-mongodb-plain-wordmark colored" />
+      <i class="devicon-git-plain-wordmark colored" />
+      <i class="devicon-nodejs-plain colored" />
+      <i class="devicon-sass-original colored" />
+    </div>
+  </section>
+
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+  <div class="inner">
+    <ul class="icons">
+      <li>
+        <a
+          href="https://twitter.com/MrEricAmrhein"
+          class="icon brands fa-twitter">
+          <span class="label">Twitter</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/eamrhein" class="icon brands fa-github">
+          <span class="label">Github</span>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.linkedin.com/in/eamrhein/"
+          class="icon brands fa-linkedin">
+          <span class="label">LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a
+          href="mailto://eamrhein@protonmail.ch"
+          class="icon solid fa-envelope">
+          <span class="label">Email</span>
+        </a>
+      </li>
+    </ul>
+    <ul class="copyright">
+      <li>2020&copy; Eric Amrhein</li>
+      <li>
+        Design:
+        <a href="http://html5up.net">HTML5 UP</a>
+      </li>
+    </ul>
   </div>
-</section>
-<Projects />
+</footer>

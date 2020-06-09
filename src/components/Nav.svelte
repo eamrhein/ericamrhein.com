@@ -1,5 +1,15 @@
 <script>
+  import { onDestroy } from "svelte";
   export let segment;
+  let hash = "";
+  const checkhash = () => {
+    if (window.location.hash) {
+      hash = window.location.hash;
+    } else {
+      hash = "";
+    }
+  };
+  console.log(hash);
 </script>
 
 <style>
@@ -8,6 +18,9 @@
     font-weight: 500;
     padding: 0 0.5em;
     color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
   }
 
   ul {
@@ -49,16 +62,19 @@
   }
 </style>
 
+<svelte:window on:popstate={checkhash} />
 <nav>
   <ul>
     <li>
-      <a aria-current={segment === undefined ? 'page' : undefined} href=".">
+      <a
+        aria-current={segment === undefined && hash === '' ? 'page' : undefined}
+        href="">
         about
       </a>
     </li>
     <li>
       <a
-        aria-current={segment === '#projects' ? 'page' : undefined}
+        aria-current={hash === '#projects' ? 'page' : undefined}
         href="#projects">
         projects
       </a>
