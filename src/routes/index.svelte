@@ -153,7 +153,7 @@
         </p>
       </article>
       <article class="col-6 col-12-xsmall work-item">
-        <a href="https://eventtool.ericamrhein.com" class="image fit thumb">
+        <a href="https://eventbritetool.herokuapp.com/" class="image fit thumb">
           <img src="images/etool.png" alt="" />
         </a>
         <h3>eventbrite</h3>
@@ -166,7 +166,7 @@
             Github
           </a>
           &nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="https://eventtool.ericamrhein.com" target="_blank">Live</a>
+          <a href="https://eventbritetool.herokuapp.com/" target="_blank">Live</a>
         </p>
       </article>
     </div>
