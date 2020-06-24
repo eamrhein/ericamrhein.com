@@ -129,9 +129,9 @@
           charts from 1day to 5years, and other important stock information.
         </p>
         <p>
-          <a href="https://stocknfo.ericamrhein.com" target="_blank">Github</a>
+          <a href="https://github.com/eamrhein/stocknfo" target="_blank">Github</a>
           &nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="/stockresearch" target="_blank">Live</a>
+          <a href="https://stocknfo.ericamrhein.com" target="_blank">Live</a>
         </p>
       </article>
       <article class="col-6 col-12-xsmall work-item">
