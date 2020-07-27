@@ -166,7 +166,7 @@
             Github
           </a>
           &nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="https://eventbritetool.herokuapp.com/" target="_blank">Live</a>
+          <a href="https://eventbrite-tool.herokuapp.com/" target="_blank">Live</a>
         </p>
       </article>
     </div>
