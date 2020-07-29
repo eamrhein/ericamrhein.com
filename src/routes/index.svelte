@@ -99,7 +99,7 @@
     <h2>Projects</h2>
     <div class="row">
       <article class="col-6 col-12-xsmall work-item">
-        <a href="https://mindfull-note.herokuapp.com/" class="image fit thumb">
+        <a href="https://mind-note.herokuapp.com/" class="image fit thumb">
           <img src="images/ArcoLinux_2019-12-08_21-09-15.png" alt="" />
         </a>
         <h3>Mindfullnote</h3>
@@ -113,7 +113,7 @@
             Github
           </a>
           &nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="https://mindfull-note.herokuapp.com/" target="_blank">
+          <a href="https://mind-note.herokuapp.com/" target="_blank">
             Live
           </a>
         </p>
