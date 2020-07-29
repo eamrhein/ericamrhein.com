@@ -135,7 +135,7 @@
         </p>
       </article>
       <article class="col-6 col-12-xsmall work-item">
-        <a href="https://travel-pics.herokuapp.com/" class="image fit thumb">
+        <a href="https://travel-pic.herokuapp.com/" class="image fit thumb">
           <img src="images/travelstory.png" alt="" />
         </a>
         <h3>Travel Story</h3>
@@ -149,11 +149,11 @@
             Github
           </a>
           &nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="https://travel-pics.herokuapp.com/" target="_blank">Live</a>
+          <a href="https://travel-pic.herokuapp.com/" target="_blank">Live</a>
         </p>
       </article>
       <article class="col-6 col-12-xsmall work-item">
-        <a href="https://eventbritetool.herokuapp.com/" class="image fit thumb">
+        <a href="https://eventbrite-tool.herokuapp.com" class="image fit thumb">
           <img src="images/etool.png" alt="" />
         </a>
         <h3>eventbrite</h3>
