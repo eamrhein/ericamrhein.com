@@ -71,7 +71,7 @@
     <p />
     <ul class="actions">
       <li>
-        <a href="assets/resume.pdf" target="_blank" class="button">Resume</a>
+        <a href="Eric-Amrhein-Resume-6-2020%20(1).pdf" target="_blank" class="button">Resume</a>
       </li>
       <li>
         <a href="mailto:eamrhein@protonmail.ch" target="_blank" class="button">
