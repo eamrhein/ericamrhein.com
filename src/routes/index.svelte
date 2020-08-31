@@ -18,4 +18,158 @@
   <div id="two">
     Projects
   </div>
+<<<<<<< HEAD
+=======
+</header>
+
+<!-- Main -->
+<div id="main">
+  <!-- One -->
+  <section id="one">
+    <header class="major">
+      <h2>About Me</h2>
+    </header>
+    <p>
+      I am a full-stack software engineer experienced in
+      <strong>JavaScript</strong>
+      ,
+      <strong>React.js</strong>
+      ,
+      <strong>Redux</strong>
+      ,
+      <strong>Ruby on Rails</strong>
+      ,
+      <strong>Node.js</strong>
+      ,
+      <strong>Express.js</strong>
+      , and
+      <strong>SQL</strong>
+      . Apart from building user-friendly and modern applications, I love using
+      my knowledge in Web Architecture and Data Structures and Algorithms to
+      create scalable applications and to debug complex and important problems.
+    </p>
+    <p />
+    <ul class="actions">
+      <li>
+        <a href="Eric-Amrhein-Resume-6-2020%20(1).pdf" target="_blank" class="button">Resume</a>
+      </li>
+      <li>
+        <a href="mailto:eamrhein@protonmail.ch" target="_blank" class="button">
+          Email
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/eamrhein" target="_blank" class="button">
+          Github
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://linkedin.com/in/eamrhein"
+          target="_blank"
+          class="button">
+          Linkedin
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Two -->
+  <section id="two">
+    <h2>Projects</h2>
+    <div class="row">
+      <article class="col-6 col-12-xsmall work-item">
+        <a href="https://mind-note.herokuapp.com/" class="image fit thumb">
+          <img src="images/ArcoLinux_2019-12-08_21-09-15.png" alt="" />
+        </a>
+        <h3>Mindfullnote</h3>
+        <p>
+          A clone of Evernote built using React / Redux, Ruby on Rails and
+          Postgresql. Key features include creating notes, organizing notes in
+          notebooks, rich text and secure user authentication.
+        </p>
+        <p>
+          <a href="https://github.com/eamrhein/MindfulNote" target="_blank">
+            Github
+          </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://mind-note.herokuapp.com/" target="_blank">
+            Live
+          </a>
+        </p>
+      </article>
+      <article class="col-6 col-12-xsmall work-item">
+        <a href="https://stocknfo.ericamrhein.com" class="image fit thumb">
+          <img src="images/stocknfo.png" target="_blank" alt="" />
+        </a>
+        <h3>Stock Research</h3>
+        <p>
+          A website built using only react that allows people to search stocks
+          and see data. Key features include searching stocks, seeing stock
+          charts from 1day to 5years, and other important stock information.
+        </p>
+        <p>
+          <a href="https://github.com/eamrhein/stocknfo" target="_blank">Github</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://stocknfo.ericamrhein.com" target="_blank">Live</a>
+        </p>
+      </article>
+      <article class="col-6 col-12-xsmall work-item">
+        <a href="https://travel-pic.herokuapp.com/" class="image fit thumb">
+          <img src="images/travelstory.png" alt="" />
+        </a>
+        <h3>Travel Story</h3>
+        <p>
+          A story-driven mobile-first social media application built with the
+          MERN Stack. Features include secure authentication, image upload,
+          comments and likes.
+        </p>
+        <p>
+          <a href="https://github.com/eamrhein/travelPics" target="_blank">
+            Github
+          </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://travel-pic.herokuapp.com/" target="_blank">Live</a>
+        </p>
+      </article>
+      <article class="col-6 col-12-xsmall work-item">
+        <a href="https://eventbrite-tool.herokuapp.com" class="image fit thumb">
+          <img src="images/etool.png" alt="" />
+        </a>
+        <h3>eventbrite</h3>
+        <p>
+          Tool to create recurring eventbrite events. Technologies include
+          React, Graphql, Grommet ExpressJS and MongoDb .
+        </p>
+        <p>
+          <a href="https://github.com/eamrhein/EventTool" target="_blank">
+            Github
+          </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://eventbrite-tool.herokuapp.com/" target="_blank">Live</a>
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Three -->
+  <section id="three">
+    <h2>Technologies I use:</h2>
+    <div class="skills">
+      <i class="devicon-react-original-wordmark colored" />
+      <i class="devicon-javascript-plain colored" />
+      <i class="devicon-ruby-plain-wordmark colored" />
+      <i class="devicon-rails-plain colored" />
+      <i class="devicon-d3js-plain colored" />
+      <i class="devicon-html5-plain-wordmark colored" />
+      <i class="devicon-css3-plain-wordmark colored" />
+      <i class="devicon-express-original-wordmark colored" />
+      <i class="devicon-mongodb-plain-wordmark colored" />
+      <i class="devicon-git-plain-wordmark colored" />
+      <i class="devicon-nodejs-plain colored" />
+      <i class="devicon-sass-original colored" />
+    </div>
+  </section>
+
+>>>>>>> c3d11d3dd25cef897c9396db6b0b633084f9d125
 </div>
