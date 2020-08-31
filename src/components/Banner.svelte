@@ -47,7 +47,7 @@
 .arrows path {
 	stroke: #2994D1;
 	fill: transparent;
-	stroke-width: 1px;	
+	stroke-width: 1.5px;	
 	animation: arrow 2s infinite;
 	-webkit-animation: arrow 2s infinite; 
 }
