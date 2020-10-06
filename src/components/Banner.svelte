@@ -96,7 +96,7 @@
         </h4>
       </div>
       <div>
-        <h1>I Strive To Build Web Applications That Help People Succeed</h1>
+        <h1>I Strive To Build Web Applications That Help People Succeed.</h1>
       </div>
       <div>
         <h4>
