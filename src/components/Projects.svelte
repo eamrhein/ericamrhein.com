@@ -1,7 +1,11 @@
 <style>
-  #project-grid {
-    background-color: chartreuse;
-    display: grid;
+  #projects{
+    background-color: #101010;
+    padding: 8%;
+  }
+  /* #project-grid {
+    background-color: black;
+    overflow: auto;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
   }
@@ -13,17 +17,10 @@
     text-align: center;
     padding: 3em;
     height: 40em;
-  }
-  h2 {
-    text-align: left;
-  }
+  } */
 </style>
 
-<svelte:head>
-  <title>About</title>
-</svelte:head>
 <section id="projects">
-  <h2>Projects</h2>
   <div id="project-grid">
     <div id="grid-item">
       <img alt="cute-puppy" src="http://place-puppy.com/400x400 " />

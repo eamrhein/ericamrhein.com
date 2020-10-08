@@ -1,5 +1,5 @@
 <script>
-
+  import Contactbar from './Contactbar.svelte'
 </script>
 
 <style>
@@ -8,9 +8,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.99;
+    position: relative;
     width: 100%;
     height: calc(var(--vh, 1vh) * 100);
-    z-index: 1;
     display: flex;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.895);
@@ -21,7 +21,9 @@
     display: flex;
     flex-direction: row;
     color: #fff;
-    z-index: 3;
+  }
+  #btext {
+    padding: 10%;
   }
   h4 {
     font-weight: normal;
@@ -86,8 +88,8 @@
 </style>
 
 <section id="banner">
-  <div>Transition overlay</div>
   <div id="bcontent">
+    <Contactbar />
     <div id="btext">
       <div>
         <h4>
@@ -106,11 +108,13 @@
       </div>
     </div>
   </div>
-  <div id="scrolldown">
+  <a href="#about">
+  <div id="scrolldown" >
     <svg class="arrows">
       <path class="a1" d="M0 0 L30 32 L60 0"></path>
       <path class="a2" d="M0 20 L30 52 L60 20"></path>
       <path class="a3" d="M0 40 L30 72 L60 40"></path>
 </svg>
   </div>
+  </a>
 </section>

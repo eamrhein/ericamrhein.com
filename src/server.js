@@ -12,6 +12,6 @@ polka() // You can also use Express
 		sirv('static', { dev }),
 		sapper.middleware()
 	)
-	.listen(4000, err => {
+	.listen(3000, err => {
 		if (err) console.log('error', err);
 	});
