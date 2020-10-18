@@ -84,6 +84,14 @@
 	animation-delay:0s;
 	-webkit-animation-delay:0s; /* Safari 和 Chrome */
 }
+@media (max-width: 800px) {
+  h4 {
+    font-size: 24ren;
+  }
+  h1 {
+    font-size: 28rem;
+  }
+  }
 
 </style>
 

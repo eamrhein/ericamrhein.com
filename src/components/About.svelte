@@ -3,7 +3,6 @@
 
 <style>
   #about {
-    /* height: calc(var(--vh, 1vh) * 100); */
     background-color: #101010;
     display: flex;
     flex-direction: column;
@@ -11,8 +10,8 @@
   }
   #content {
     padding-top: 60rem;
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   h3 {
     flex-grow: 0;
@@ -26,11 +25,6 @@
   #pad {
     padding: 3rem;
   }
-  @media (max-width: 767px) {   
-    #inner {
-        flex-direction: column;
-    }
-}
   #divider {
     flex-grow: 1;
     height: 1px;
@@ -41,6 +35,8 @@
     justify-content: center;
     margin: 1%;
     padding: 1%;
+    padding-left: 15%;
+    padding-right: 15%;
   }
   p {
     font-size: 18rem;
@@ -122,7 +118,34 @@
     -webkit-animation-delay: 0s; /* Safari 和 Chrome */
   }
   span {
-      color: cornflowerblue;
+    color: cornflowerblue;
+  }
+  #preamble {
+    margin-right: 25rem;
+  }
+  img {
+    max-width: 380px;
+    height: auto;
+    border-radius: 8px;
+  }
+  @media (max-width: 800px) {
+    #inner {
+      flex-direction: column;
+    }
+    #content {
+      padding: 5%;
+    }
+    #inner {
+      padding: 0%;
+    }
+    img {
+      max-width: 100%;
+    }
+    ul {
+      margin-bottom: 20rem;
+      padding-left: 25%;
+      padding-right: 25%;
+    }
   }
 </style>
 
@@ -134,7 +157,7 @@
       <div id="divider" />
     </div>
     <div id="inner">
-      <div>
+      <div id="preamble">
         <p>Hello!, I'm Eric, a software engineer based in San Francsico, CA.</p>
         <p>
           I enjoyed building things the live on the web, such as websites,
@@ -156,14 +179,16 @@
           <li>Svelte</li>
         </ul>
       </div>
-      <div><img alt="cute-puppy" src="http://place-puppy.com/500x500 " /></div>
+      <div><img alt="cute-puppy" src="/images/eric.jpg" /></div>
     </div>
   </div>
-  <div id="scrolldown">
-    <svg class="arrows">
-      <path class="a1" d="M0 0 L30 32 L60 0" />
-      <path class="a2" d="M0 20 L30 52 L60 20" />
-      <path class="a3" d="M0 40 L30 72 L60 40" />
-    </svg>
-  </div>
+  <a href="#projects">
+    <div id="scrolldown">
+      <svg class="arrows">
+        <path class="a1" d="M0 0 L30 32 L60 0" />
+        <path class="a2" d="M0 20 L30 52 L60 20" />
+        <path class="a3" d="M0 40 L30 72 L60 40" />
+      </svg>
+    </div>
+  </a>
 </section>

@@ -16,7 +16,7 @@
     "browser-js": "^1.10.1",
     "compression": "^1.7.1",
     "jquery": "^3.5.1",
-    "polka": "next",
+    "polka": "^0.5.2",
     "sirv": "^0.4.0"
   },
   "devDependencies": {
@@ -26,6 +26,7 @@
     "@babel/preset-env": "^7.0.0",
     "@babel/runtime": "^7.0.0",
     "@rollup/plugin-commonjs": "11.0.2",
+    "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^7.0.0",
     "@rollup/plugin-replace": "^2.2.0",
     "link-preview-generator": "^0.0.4",
