@@ -2,7 +2,7 @@ export default [
   {
     title: "MindfulNote",
     description:
-      "A clone of Evernote built to help people take and organize notes. Key Features include: crating notes, organizing notes in notebooks, rich-text and secure user authentication.",
+      "A clone of Evernote built to help people take and organize notes. Key Features include: creating notes, organizing notes in notebooks, rich-text and secure user authentication.",
     img: "/images/evernote.png",
     technologies: ["React", "Redux", "Ruby on Rails", "PostgreSQL"],
     github: "https://github.com/eamrhein/MindfulNote",
@@ -20,10 +20,10 @@ export default [
   {
     title: "StockNFO",
     description:
-      "A website built using only react that allows people to search stocks and see data. Key features include searching stocks, seeing stock charts from 1day to 5years, and other important stock information.",
+      "A website built using only react that allows people to search stocks and see data. Key features include: searching stocks, choosing stock charts from 1day to 5years, and other important stock information.",
     img: "/images/stocknfo.png",
-    technologies: ["React", "ChartJS"],
+    technologies: ["React", "RechartJs",],
     github: "https://github.com/eamrhein/stocknfo",
-    live: "https://stocknfo.ericamrhein.com/",
+    live: "stocknfo.netlify.app",
   },
 ];

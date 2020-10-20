@@ -18,7 +18,7 @@
     grid-column: 2/2;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     height: 100%;
   }
   span {
@@ -49,9 +49,19 @@
   }
   #links {
     display: flex;
-    align-items: flex-end;
     height: 100%;
     padding-bottom: 5%;
+  }
+  #links p {
+    font-size: smaller;
+    opacity: 0.6;
+  }
+  #links p:hover {
+    opacity: 1;
+    transition: ease-in 0.25s;
+  }
+  #description {
+    max-width: 800px;
   }
   @media (max-width: 900px) {
     #grid-item {
@@ -81,7 +91,11 @@
   </div>
   <div id="text">
     <a href={project.github}><h4>{project.title}</h4></a>
-    <p>{project.description}</p>
+    <div>
+      <div id="description">
+        <p>{project.description}</p>
+      </div>
+    </div>
     <div>
       <h3>Technologies:</h3>
       {#each project.technologies as tech}<span> {tech} </span>{/each}
