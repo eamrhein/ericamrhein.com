@@ -24,6 +24,6 @@ export default [
     img: "/images/stocknfo.png",
     technologies: ["React", "RechartJs",],
     github: "https://github.com/eamrhein/stocknfo",
-    live: "stocknfo.netlify.app",
+    live: "https://stocknfo.netlify.app",
   },
 ];
