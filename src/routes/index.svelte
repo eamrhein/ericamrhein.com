@@ -7,7 +7,7 @@
 </script>
 
 
-<GoogleAnalytics properties={[ 'google property id A', ...'google property id X' ]} />
+
 <svelte:head>
   <title>Eric Amrhein - Web Developer</title>
 </svelte:head>
