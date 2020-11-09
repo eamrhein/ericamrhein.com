@@ -2,7 +2,7 @@
   import GoogleAnalytics from "sapper-google-analytics/GoogleAnalytics.svelte"
   import { stores } from "@sapper/app"
 
-  let ga_measurment_id = "UA-252042200"  // your analytics id
+  let ga_measurment_id = "G-7G7ZJJT10C"  // your analytics id
 </script>
 
 <GoogleAnalytics {stores} id={ga_measurment_id}/>
