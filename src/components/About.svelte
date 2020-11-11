@@ -161,7 +161,7 @@
         <p>Hello!, I'm Eric, a software engineer based in San Francsico, CA.</p>
         <p>
           I enjoyed building things the live on the web, such as websites,
-          applications or APIs. My goal is to build performat and minimal
+          applications or APIs. My goal is to build performant and minimal
           projects.
         </p>
         <p>
