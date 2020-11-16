@@ -6,7 +6,7 @@ export default [
     img: "/images/evernote.png",
     technologies: ["React", "Redux", "Ruby on Rails", "PostgreSQL"],
     github: "https://github.com/eamrhein/MindfulNote",
-    live: "https://mind-note.herokuapp.com/",
+    live: "https://mindfull-note.herokuapp.com/",
   },
   {
     title: "EventTool",
@@ -15,7 +15,7 @@ export default [
     img: "/images/etool.png",
     github: "https://github.com/eamrhein/EventTool",
     technologies: ["React", "Graphql", "Express JS", "MongoDB"],
-    live: "https://eventbrite-tool.herokuapp.com/",
+    live: "https://eventstool.herokuapp.com/",
   },
   {
     title: "StockNFO",
